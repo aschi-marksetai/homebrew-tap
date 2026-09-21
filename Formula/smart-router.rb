@@ -26,11 +26,11 @@ class SmartRouter < Formula
     bin.install Dir["smart-router-*"][0] => "smart-router"
   end
 
-  test do
-    system bin/"smart-router", "--version"
-  end
-
   def caveats
     "Run `smart-router install-skill` and `smart-router init`."
+  end
+
+  test do
+    system bin/"smart-router", "--version"
   end
 end
