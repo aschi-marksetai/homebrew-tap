@@ -1,7 +1,7 @@
 class SmartRouter < Formula
   desc "Routes coding-agent tasks to configured harnesses"
   homepage "https://github.com/aschi-marksetai/smart-router"
-  version "0.2.8"
+  version "0.2.9"
   on_macos do
     on_arm do
       url "https://github.com/aschi-marksetai/smart-router/releases/download/v#{version}/smart-router-darwin-arm64"
